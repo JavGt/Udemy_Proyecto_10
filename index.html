@@ -5,41 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nucleus - eWallet </title>
+    
+    <!-- ---- Fuentes ---- -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet"> 
 
+    <!-- ---- Css ---- -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="header">
         <div class="header__contenedor">
-
             <div class="header__barra">
                 <div class="header__logo">
                     <img src="img/logo.svg" alt="Logo Nucleus" class="header__imagen">
-                </div>
-            
+                </div><!--.header__logo-->
                 <nav class="navegacion">
                     <a href="#" class="navegacion__link">¿Qué es?</a>
                     <a href="#" class="navegacion__link">¿Cómo funciona?</a>
                     <a href="#" class="navegacion__link">Precios</a>
                     <a href="#" class="navegacion__link">Contratar</a>
-                </nav>
-            </div>
-
+                </nav><!--.navegacion-->
+            </div><!--.header__barra-->
             <div class="header__grid">
                 <div class="header__texto">
                     <h1 class="header__heading">Recibe y Realiza Pagos en tu Celular con Nucleus</h1>
                     <a class="header__boton" href="#">Obtener Cuenta</a>
-                </div>
+                </div><!--.header__texto-->
                 <div class="header__grafico">
                     <img src="img/app_1.svg" alt="imagen Nucleus app" class="header__imagen">
-                </div>
-            </div>
-        </div>
-    </header>
+                </div><!--.header__grafico-->
+            </div><!--.header__grid-->
+        </div><!--.header__contenedor-->
+    </header><!--.header-->
 
     <main class="nucleus">
         <h2 class="nucleus__heading">¿Qué es?</h2>
@@ -47,129 +47,117 @@
             <div class="nucleus__grid">
                 <div class="nucleus__imagen">
                     <img src="img/app_2.svg" alt="app nucleus">
-                </div>
-
+                </div><!--.nucleus__imagen-->
                 <div class="listado">
                     <div class="listado__elemento">
                         <h2 class="listado__heading">Fácil</h2>
                         <p class="listado__texto">Crea una cuenta, envía documentación y comienza a usar nucleus en un par de horas.</p>
-                    </div>
+                    </div><!--.listado__elemento-->
                     <div class="listado__elemento">
                         <h2 class="listado__heading">Seguro</h2>
                         <p class="listado__texto">Por su tecnologia digital nucleus es imposible he hackear o robar.</p>
-                    </div>
+                    </div><!--.listado__elemento-->
                     <div class="listado__elemento">
                         <h2 class="listado__heading">Administrable</h2>
                         <p class="listado__texto">Añade o transfiere a tu banco, añade limites o controla tus gastos.</p>
-                    </div>
+                    </div><!--.listado__elemento-->
                 </div><!--.listado-->
+            </div><!--.nucleus__grid-->
+        </div><!--.nucleus__contenedor-->
+    </main><!--.nucleus-->
 
-            </div>
-        </div>
-    </main>
+    <section class="seguridad">
+        <div class="seguridad__contenedor">
+            <h2 class="seguridad__heading">Nucleus es seguro</h2>
+            <div class="seguridad__grid">                    
+                <div class="listado">
+                    <div class="listado__elemento">
+                        <p class="listado__texto">Nucleus es seguro e imposible de clonar.</p>
+                    </div><!--.listado__elemento-->
+                    <div class="listado__elemento">
+                        <p class="listado__texto">Utilizar tu cara para confirmar un deposito o registrar una cuenta.</p>
+                    </div><!--.listado__elemento-->
+                    <div class="listado__elemento">
+                        <p class="listado__texto">Paga en un establecimiento con una tarjerta de credito que se desactiva una vez que se ha heccho tu compra.</p>
+                    </div><!--.listado__elemento-->
+                </div><!--.listado-->
+                <div class="seguridad__imagen">
+                    <img src="img/seguridad.png" alt="seguridad nucleus">
+                </div>
+            </div><!--.seguridad__grid-->           
+        </div><!--.seguridad__contenedor-->
+    </section><!--.seguridad-->
 
-        <section class="seguridad">
-            <div class="seguridad__contenedor">
-                <h2 class="seguridad__heading">Nucleus es seguro</h2>
-                <div class="seguridad__grid">
-                    
+    <section class="comisiones">
+        <div class="comisiones__contenedor">
+            <h2 class="comisiones__heading">Comisiones</h2>
+            <div class="comisiones__grid">
+                <div class="comisiones__contenido">
+                    <p class="comisiones__texto">Mientras más veces utilices nucleus, menos pagas:</p>     
                     <div class="listado">
-                        <div class="listado__elemento">
-                            <p class="listado__texto">Nucleus es seguro e imposible de clonar.</p>
-                        </div>
-                        <div class="listado__elemento">
-                            <p class="listado__texto">Utilizar tu cara para confirmar un deposito o registrar una cuenta.</p>
-                        </div>
-                        <div class="listado__elemento">
-                            <p class="listado__texto">Paga en un establecimiento con una tarjerta de credito que se desactiva una vez que se ha heccho tu compra.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="seguridad__imagen">
-                        <img src="img/seguridad.png" alt="seguridad nucleus">
-                    </div>
-
+                        <div class="listado__elemento listado__elemento--2col">
+                            <p class="listado__numero">3%</p>
+                            <p class="listado__texto">De todas tus transaciones si tus movimientos son menores a $999 USD</p>
+                        </div><!--.listado__elemento-->
+                        <div class="listado__elemento listado__elemento--2col">
+                            <p class="listado__numero">2%</p>
+                            <p class="listado__texto">De todas tus transaciones si tus movimientos son mayores a $999 USD</p>
+                        </div><!--.listado__elemento-->
+                    </div><!--.listado-->
+                </div><!--.comisiones__contenido-->
+                <div class="comisiones__imagen">
+                    <img src="img/app_3.svg" alt="imagen app">
                 </div>
-                
-            </div>
-        </section>
+            </div><!--.comisiones__grid-->
+        </div><!--.comisiones__contenedor-->
+    </section><!--.comisiones-->
 
-        <section class="comisiones">
-            <div class="comisiones__contenedor">
-                <h2 class="comisiones__heading">Comisiones</h2>
-                <div class="comisiones__grid">
-                    <div class="comisiones__contenido">
-                        <p class="comisiones__texto">Mientras más veces utilices nucleus, menos pagas:</p>
-                        
-                        <div class="listado">
-                            <div class="listado__elemento listado__elemento--2col">
-                                <p class="listado__numero">3%</p>
-                                <p class="listado__texto">De todas tus transaciones si tus movimientos son menores a $999 USD</p>
-                            </div>
-                            <div class="listado__elemento listado__elemento--2col">
-                                <p class="listado__numero">2%</p>
-                                <p class="listado__texto">De todas tus transaciones si tus movimientos son mayores a $999 USD</p>
-                            </div>
-                        </div><!--.listado-->
-                    </div><!--.comisiones__contenido-->
-                    <div class="comisiones__imagen">
-                        <img src="img/app_3.svg" alt="imagen app">
-                    </div>
-                </div><!--.comisiones__grid-->
-            </div><!--.comisiones__contenedor-->
-        </section><!--.comisiones-->
+    <section class="testimoniales">
+        <div class="testimoniales__contenedor">
+            <h2 class="testimoniales__heading">Testimoniales</h2>
+            <div class="testimoniales__grid">
+                <div class="testimonial">
+                    <p class="testimonial__texto">Excelente app, muy sencillo de manejar y enviar dinero.</p>
+                    <p class="testimonial__autor">- Javier Baez</p>
+                </div><!--.testimonial-->
+                <div class="testimonial">
+                    <p class="testimonial__texto">Excelente app, muy sencillo de manejar y enviar dinero.</p>
+                    <p class="testimonial__autor">- Javier Baez</p>
+                </div><!--.testimonial-->
+                <div class="testimonial">
+                    <p class="testimonial__texto">Excelente app, muy sencillo de manejar y enviar dinero.</p>
+                    <p class="testimonial__autor">- Javier Baez</p>
+                </div><!--.testimonial-->
+                <div class="testimonial">
+                    <p class="testimonial__texto">Excelente app, muy sencillo de manejar y enviar dinero.</p>
+                    <p class="testimonial__autor">- Javier Baez</p>
+                </div><!--.testimonial-->
+                <div class="testimonial">
+                    <p class="testimonial__texto">Excelente app, muy sencillo de manejar y enviar dinero.</p>
+                    <p class="testimonial__autor">- Javier Baez</p>
+                </div><!--.testimonial-->
+                <div class="testimonial">
+                    <p class="testimonial__texto">Excelente app, muy sencillo de manejar y enviar dinero.</p>
+                    <p class="testimonial__autor">- Javier Baez</p>
+                </div><!--.testimonial-->
+            </div><!--.testimoniales__grid-->
+        </div><!--.testimoniales__contenedor-->
+    </section><!--.testimoniales-->
 
-        <section class="testimoniales">
-            <div class="testimoniales__contenedor">
-                <h2 class="testimoniales__heading">Testimoniales</h2>
-
-                <div class="testimoniales__grid">
-                    <div class="testimonial">
-                        <p class="testimonial__texto">Excelente app, muy sencillo de manejar y enviar dinero.</p>
-                        <p class="testimonial__autor">- Javier Baez</p>
-                    </div>
-                    <div class="testimonial">
-                        <p class="testimonial__texto">Excelente app, muy sencillo de manejar y enviar dinero.</p>
-                        <p class="testimonial__autor">- Javier Baez</p>
-                    </div>
-                    <div class="testimonial">
-                        <p class="testimonial__texto">Excelente app, muy sencillo de manejar y enviar dinero.</p>
-                        <p class="testimonial__autor">- Javier Baez</p>
-                    </div>
-                    <div class="testimonial">
-                        <p class="testimonial__texto">Excelente app, muy sencillo de manejar y enviar dinero.</p>
-                        <p class="testimonial__autor">- Javier Baez</p>
-                    </div>
-                    <div class="testimonial">
-                        <p class="testimonial__texto">Excelente app, muy sencillo de manejar y enviar dinero.</p>
-                        <p class="testimonial__autor">- Javier Baez</p>
-                    </div>
-                    <div class="testimonial">
-                        <p class="testimonial__texto">Excelente app, muy sencillo de manejar y enviar dinero.</p>
-                        <p class="testimonial__autor">- Javier Baez</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="footer">
-            <div class="footer__contenedor">
-                <div class="footer__grid">
-                    <div class="footer__logo">
-                        <img src="img/logo-blanco.svg" alt="logo blanco">
-                    </div>
-                    
-                    <nav class="navegacion">
-                        <a href="#" class="navegacion__link navegacion__link--blanco">¿Qué es?</a>
-                        <a href="#" class="navegacion__link navegacion__link--blanco">¿Cómo funciona?</a>
-                        <a href="#" class="navegacion__link navegacion__link--blanco">Precios</a>
-                        <a href="#" class="navegacion__link navegacion__link--blanco">Contratar</a>
-                    </nav>
-                </div>
-            </div>
-
-        </footer>
-    
-    
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <div class="footer__grid">
+                <div class="footer__logo">
+                    <img src="img/logo-blanco.svg" alt="logo blanco">
+                </div>      
+                <nav class="navegacion">
+                    <a href="#" class="navegacion__link navegacion__link--blanco">¿Qué es?</a>
+                    <a href="#" class="navegacion__link navegacion__link--blanco">¿Cómo funciona?</a>
+                    <a href="#" class="navegacion__link navegacion__link--blanco">Precios</a>
+                    <a href="#" class="navegacion__link navegacion__link--blanco">Contratar</a>
+                </nav>
+            </div><!--.footer__grid-->
+        </div><!--.footer__contenedor-->
+    </footer> 
 </body>
 </html>
